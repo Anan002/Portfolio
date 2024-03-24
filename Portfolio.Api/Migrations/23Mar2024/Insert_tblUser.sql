@@ -1,0 +1,31 @@
+INSERT INTO tblUser
+(
+	UserId
+	,RoleId		
+	,UserName	
+	,FirstName	
+	,LastName	
+	,EmailId		
+	,MobileNumber
+	,DateBorn	
+	,Gender		
+	,DateJoined	
+	,IsActive	
+	,IsVerified		
+)
+
+VALUES
+(
+	NEWID(),
+	'50ACA243-1483-4739-B3FE-BE036B3D1F5E',
+	'jesmeet83',
+	'Jesmeeth',
+	'Singh',
+	'jesmith@gmail.com',
+	'8375123278',
+	'1996-07-09',
+	1,
+	'2024-03-23',
+	1,
+	1
+)
